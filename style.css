@@ -1,0 +1,57 @@
+*{
+   box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    outline: 0;
+}
+.new_1{
+position: relative;
+width: fit-content;
+
+}
+.paragraph_1{
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    left: 0%;
+    width: 70px;
+    font-size: 30px;
+}
+    
+
+nav{
+    background-color: rgb(243, 44, 44);
+}
+nav ul{
+    list-style: none
+}
+nav li{
+    display: inline-block;
+}
+nav ul li a{
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    display: inline-block;
+    transition: .5s;
+}
+nav a:hover{
+    background: rgb(75, 8, 199);
+}
+nav ul li a.active{
+    background: rgb(75, 8, 199) ;
+}
+.nav2{
+    background-color: black;
+}
+
+.anchor_2{
+    background-color: red;
+    padding: 20px;
+    font-size:20px ;
+    color: black;
+    
+}
+    
